@@ -1,3 +1,5 @@
+# Find if a particular key is present in the dictionary.
+
 def is_key_present(dictionary, key):
     if key in dictionary:
         return "Yes"
@@ -6,4 +8,5 @@ def is_key_present(dictionary, key):
     
 dictionary = {'Name' : 'Ron', 'Age' : 22}
 key = 'Name'
+
 print(is_key_present(dictionary, key))

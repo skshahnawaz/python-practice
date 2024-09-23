@@ -1,4 +1,4 @@
-str = "ATTAGCA" #initialise a string to store the DNA sequence
+str = input("Enter a DNA sequence : ") #initialise a string to store the DNA sequence
 
 #take 4 variables which will store the counts of A,G,T,C 
 count_a = 0

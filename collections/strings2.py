@@ -1,6 +1,6 @@
-dna_string = "GATGGAACTTGACTACGTAAATT" 
+dna_string = input("Enter a DNA sequence : ")
 
-# Replacement Logic
+# Replacement Logic for transcribed RNA
 # Replace G with C and C with G
 # Replace A with U and T with A
 

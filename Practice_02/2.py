@@ -1,4 +1,19 @@
-dna = input("Enter a DNA sequence: ")
-dna = dna.upper()
-rna = dna.replace('T', 'U')
-print(rna)
+dna_string = input("Enter a DNA sequence : ")
+
+# Replacement Logic for transcribed RNA
+# Replace G with C and C with G
+# Replace A with U and T with A
+
+rna_string = ""
+
+for chr in dna_string:
+    if (chr == "A"):
+        rna_string = rna_string + "U"
+    elif (chr == "G"):
+        rna_string = rna_string + "C"
+    elif (chr == "C"):
+        rna_string = rna_string + "G"
+    elif (chr == "T"):
+        rna_string = rna_string + "A"
+
+print(rna_string)

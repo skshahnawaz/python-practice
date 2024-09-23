@@ -1,3 +1,6 @@
+# Write a function to rotate a list of integers in the range [1, n] by k steps to the right.
+
+
 def rotate_list(lst, k):
     n = len(lst)
     k = k % n

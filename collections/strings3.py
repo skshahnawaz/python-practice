@@ -1,4 +1,4 @@
-str = "AAAACCCGGT" # Store the DNA Sequence in a string
+str = input("Enter a DNA sequence: ") # Store the DNA Sequence in a string
 
 reversed_string = "" # Define a variable reversed_string to store the reverse of the dna sequence string
 reverse_compliment_string = "" # Define a variable reverse_compliment_string to store the compliments of the reversed string

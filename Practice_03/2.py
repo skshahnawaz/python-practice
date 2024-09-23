@@ -1,3 +1,6 @@
+# Write a function that takes an unsorted list of integers from 1 to n, where one number is missing, and returns the missing
+# number. Note that the value of n is the maximum number found in the input sequence, and is not provided separately.
+
 def find_missing_number(lst):
     # First find the maximum number in the list
     n = max(lst)
@@ -11,5 +14,9 @@ def find_missing_number(lst):
     missing_number = n_set - lst_set
     return missing_number.pop()
 
-lst = [1, 2, 3, 4, 5, 6, 7, 8, 10]
+#take the input from the user iteratively
+lst = []
+n = int(input("Enter the number of elements in the list: "))
+for i in range(n):
+    lst.append(int(input("Enter the element: ")))
 print(find_missing_number(lst))
